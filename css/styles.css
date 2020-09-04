@@ -467,7 +467,12 @@ img {
 .address .item:nth-last-child(-n + 1) {
   margin-bottom: 0px;
 }
-
+.social-tree {
+  display: flex;
+}
+.social-tree li:not(:last-child) {
+  margin-right: 10px;
+}
 .footer-1 {
   width: 270px;
 }
