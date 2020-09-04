@@ -60,6 +60,14 @@ img {
   margin-bottom: 50px;
 }
 /* ====header==== */
+
+.item .mail-svg {
+  fill: var(--primari-text-color);
+  display: flex;
+}
+.item .mail-svg:hover {
+  color: var(--title-text-color);
+}
 .main-nav {
   display: flex;
   align-items: center;
@@ -153,6 +161,14 @@ img {
   display: flex;
   margin: auto;
   width: 696px;
+  background-image: url(../image/fon.jpg);
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  ); */
 }
 .hero-text {
   font-weight: 900;
@@ -345,7 +361,6 @@ img {
 
 .footer-1 {
   width: 270px;
-  
 }
 
 /* ====end foother==== */
