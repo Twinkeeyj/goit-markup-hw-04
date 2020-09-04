@@ -166,15 +166,16 @@ img {
   align-items: center;
   justify-content: center;
   margin: auto;
-  width: 696px;
-  background-image: url(../image/fon.jpg);
+
+  background-color: var(--primari-text-color);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../image/fon.jpg);
   width: auto;
   background-repeat: no-repeat;
   background-position: center;
-  /* background-image: linear-gradient(
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)
-  ); */
 }
 .hero-text {
   min-width: 696px;
