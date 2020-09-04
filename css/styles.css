@@ -7,6 +7,7 @@
   --primary-begf-team: #f5f4fa;
   --font-famali: Roboto, sans-serif;
   --font-famali-logo: Raleway, sans-serif;
+  --color-svg: #afb1b8;
 }
 body {
   color: var(--accent-color);
@@ -63,10 +64,9 @@ img {
 
 .item .mail-svg {
   fill: var(--primari-text-color);
-  display: flex;
 }
 .item .mail-svg:hover {
-  color: var(--title-text-color);
+  fill: var(--title-text-color);
 }
 .main-nav {
   display: flex;
@@ -204,7 +204,35 @@ img {
 
 /* ====end hero==== */
 /* ====our pros==== */
-.pros-topic {
+.pros .item::before {
+  display: block;
+  content: '';
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--primary-begf-team);
+  margin-bottom: 30px;
+}
+.pros .item:nth-child(1)::before {
+  background-image: url(../image/pros/ant.svg);
+  background-size: 65px 70px;
+}
+.pros .item:nth-child(2)::before {
+  background-image: url(../image/pros/time.svg);
+  background-size: 67px 70px;
+}
+.pros .item:nth-child(3)::before {
+  background-image: url(../image/pros/pc.svg);
+  background-size: 70px 53px;
+}
+
+.pros .item:nth-child(4)::before {
+  background-image: url(../image/pros/kos.svg);
+  background-size: 70px 70px;
+}
+
+.pros .pros-topic {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -284,6 +312,7 @@ img {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
 
   color: var(--primari-text-color);
 }
@@ -315,6 +344,30 @@ img {
   background-color: var(--primary-beg-color);
   padding: 30px;
   text-align: center;
+}
+.social-tree {
+  display: flex;
+}
+.social-a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--primary-beg-color);
+  width: 44px;
+  height: 44px;
+}
+.social-svg {
+  fill: var(--color-svg);
+}
+.social-tree li:not(:last-child) {
+  margin-right: 10px;
+}
+.social-a:hover .social-svg {
+  fill: var(--primary-beg-color);
+}
+.social-a:hover {
+  background-color: var(--title-text-color);
 }
 
 /* ====end team==== */
