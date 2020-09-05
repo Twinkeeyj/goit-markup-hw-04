@@ -23,7 +23,7 @@ html {
 *::after {
   box-sizing: inherit;
   margin: 0;
-  padding: 0;
+  padding: 0px;
   outline: 1px solid red;
 }
 .link {
@@ -426,6 +426,8 @@ img {
   background-color: var(--primary-begf-color);
   padding-bottom: 60px;
   padding-top: 60px;
+  display: flex;
+  flex-direction: row;
 }
 .logo-d {
   color: var(--primary-beg-color);
