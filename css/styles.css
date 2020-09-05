@@ -474,7 +474,8 @@ img {
   margin-right: 10px;
 }
 .footer-1 {
-  width: 270px;
+  width: 230px;
+  margin-right: 70px;
 }
 .footer .social-a {
   display: flex;
@@ -494,7 +495,9 @@ img {
 .footer .unity {
   margin-bottom: 20px;
 }
-/* .second-floor {
+.footer-soc {
+  width: 206px;
+} /* .second-floor {
   /* display: inline-block;
 } */
 /* ====end foother==== */
