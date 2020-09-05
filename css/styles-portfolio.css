@@ -57,11 +57,9 @@ img {
 }
 /* ====header==== */
 .item .mail-svg {
-  fill: var(--primari-text-color);
+  fill: currentColor;
 }
-.item .mail-svg:hover {
-  fill: var(--title-text-color);
-}
+
 .main-nav {
   display: flex;
   align-items: center;
