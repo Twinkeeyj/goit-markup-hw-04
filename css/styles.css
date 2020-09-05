@@ -421,13 +421,12 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--primary-beg-color);
+  text-transform: uppercase;
 }
 .footer {
   background-color: var(--primary-begf-color);
   padding-bottom: 60px;
   padding-top: 60px;
-  display: flex;
-  flex-direction: row;
 }
 .logo-d {
   color: var(--primary-beg-color);
@@ -499,7 +498,7 @@ img {
 }
 .footer-soc {
   width: 206px;
-} /* .second-floor {
-  /* display: inline-block;
-} */
-/* ====end foother==== */
+}
+.second-floor {
+  display: flex;
+}
